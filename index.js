@@ -1,10 +1,5 @@
 import Library from './modules/library.js';
 
-
-
-
-
-
 class UiBooks {
   constructor() {
     this.collection = JSON.parse(localStorage.getItem('bookCollection')) || [];

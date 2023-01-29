@@ -1,3 +1,4 @@
+import { DateTime } from './luxon.js';
 
 class Library {
   constructor(title, author, id) {
@@ -6,8 +7,6 @@ class Library {
     this.id = id;
   }
 }
-
-import { DateTime } from './luxon.js';
 
 const date = document.getElementById('date');
 const setTimeDate = () => {
